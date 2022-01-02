@@ -1,2 +1,39 @@
-a.{font-size: 100px;
-background-color: brown;}
+* {
+  box-sizing: border-box;}
+body {font-family: 'Roboto', sans-serif;}
+
+html {scroll-behavior: smooth;}
+
+html {
+  scroll-behavior: smooth; 
+}
+.img {width: 800px;
+height: 600px;}
+.nav-list {list-style: none;
+  display: flex;
+justify-content: flex-end;
+align-items: center;
+list-style: none;}
+.nav-link {
+  transition: .3s;
+  padding: 10px 20px;
+border: 1px solid red;}
+.nav-link :hover {
+  cursor: pointer;
+ text-decoration: underline;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.body {display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+margin: 0;
+padding: 0;
+}
+.section
+.header {border: 1px solid red;}
+.main {border: 1px solid red;}
+.footer {border: 1px solid red;font-size: 100px;}
